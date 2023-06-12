@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+header{
+    display: flex;
+}
+
+.esquerda{
+    background-color: rgb(0, 255, 98);
+    width: 70vw;
+}
+
+.direita{
+    background: #EDEDED;
+    box-shadow: -3px 0 15px rgba(0,0,0,0.5);
+    width: 30vw;
+}
+
+.detalhes li{
+    list-style: none;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #791010;
+    padding: 20px;
+    text-align: center;
+  }
+
+.idioma li{
+    list-style: none;
+}  
+
+.foto_perfil{
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+}
+
+.foto_perfil img{
+    border-radius: 50%;
+    width: 30vw;
+    height: 28vw;
+    transition: all ease-in-out .3s; 
+}
+
+.foto_perfil img:hover{
+    transform: scale(1.25);
+}
+
+   
