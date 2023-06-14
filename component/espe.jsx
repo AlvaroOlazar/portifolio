@@ -1,14 +1,16 @@
 import Image from "next/image"
 import foto from "../img/foto_perfil.jpg"
+import favi from "../app/favicon.ico"
 
 export const Esp = () => {
     return(
         <>
         <div className="direita">
             <div className="foto_perfil">
-            <Image src={foto}></Image>
+            <Image src={favi}></Image>
             </div>
-            <div className="sobre"><text>Sobre Mim</text>
+            <div className="sobre">
+                <text id="titleSobre">Sobre Mim</text>
                 <div className="texto-sobre">Eu sou uma pessoa que gosto de ter muito conhecimento, 
                 a área em que escolhi para minha vida é a da tecnologia, desde criança fui muito 
                 curioso sobre como um computador funcionava e hoje tenho a certeza que é isso o 
