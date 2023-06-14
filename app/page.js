@@ -10,7 +10,7 @@ export default function Home() {
       <Nav></Nav>
       <Esp></Esp>
     </header>
-      <Footer></Footer>
+      <Footer></Footer> 
   </>
   )
 }
